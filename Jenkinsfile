@@ -4,7 +4,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    sh 'docker compose version'
+                    sh 'docker-compose up -d'
                 }
             }
         }
