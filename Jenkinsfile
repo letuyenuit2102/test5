@@ -4,7 +4,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    sh 'docker run hello-world'
+                    sh 'docker-compose up -d'
                 }
             }
         }
