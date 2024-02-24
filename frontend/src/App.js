@@ -103,7 +103,6 @@ function App() {
 
   return (
     <div>
-      {error && <ErrorAlert errorText={error} />}
       <GoalInput onAddGoal={addGoalHandler} />
       {!isLoading && (
         <CourseGoals goals={loadedGoals} onDeleteGoal={deleteGoalHandler} />
