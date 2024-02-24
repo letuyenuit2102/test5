@@ -34,7 +34,7 @@ function GoalInput(props) {
             value={enteredGoalText}
             onChange={updateGoalTextHandler}
           />
-          <button>Add Item</button>
+          <button>Add Item HEHEHEHEHE</button>
         </form>
       </Card>
     </section>
